@@ -1,12 +1,6 @@
 // Array para almacenar los nombres de los amigos y sus amigos secretos
 let amigos = [];
 
-//Hacer que funcione la tecla Enter
-document.getElementById('amigo').addEventListener('keypress', function (event) {
-    if (event.key === 'Enter') {
-        agregarAmigo();
-    }
-});
 
 // Función para agregar un amigo
 function agregarAmigo() {
@@ -40,7 +34,7 @@ function actualizarListaAmigos() {
     for (let amigo of amigos) {
         const li = document.createElement('li'); // Crear un nuevo elemento de lista
         li.textContent = amigo.nombre; // Establecer el nombre como texto
-        listaAmigos.appendChild(li); // Agregar el <li> a la lista HTML
+        listaAmigos.appendChild(li); // Agregar el elemento de lista creado a la lista HTML
     }
 }
 
