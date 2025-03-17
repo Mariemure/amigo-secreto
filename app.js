@@ -1,7 +1,6 @@
 // Array para almacenar los nombres de los amigos y sus amigos secretos
 let amigos = [];
 
-
 // Función para agregar un amigo
 function agregarAmigo() {
     const nombreInput = document.getElementById('amigo'); // Obtener el valor del input
