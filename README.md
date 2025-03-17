@@ -28,6 +28,6 @@ Sigue las instrucciones en pantalla para agregar los nombres de los participante
 
 Al final, el programa te dirá quién le regala a quién. ¡Súper fácil! 🎊
 
-#**Autora** 👩‍💻
+# **Autora** 👩‍💻
 
 Mariana Mujica
